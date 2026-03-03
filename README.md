@@ -1,8 +1,35 @@
-# Agency Website (scaffold)
+# Digital Agency Website with Admin Dashboard
 
-This folder contains a lightweight scaffold for a digital marketing agency website.
+## Overview
+This is a **custom PHP website** for a digital agency, featuring a **responsive frontend** and a **simple admin dashboard** for managing dynamic content.  
+The project demonstrates PHP, MySQL, HTML5, CSS3, JavaScript, and Bootstrap 5 skills, perfect for portfolio and client work.
 
-Structure includes frontend pages, admin placeholders, includes for shared components, and an assets folder.
+---
 
-Next steps: add real Bootstrap files, configure database credentials (environment variables), and implement CRUD in admin pages.
-# DIGITAL_AGENCY_WEBSITE
+## Features
+
+### Frontend
+- Home, About, Services, Portfolio, Contact pages
+- Mobile-friendly and fully responsive layout
+- Smooth scrolling and modern design
+- Contact form storing submissions in database
+
+### Admin Dashboard
+- Secure login/logout system
+- CRUD (Create, Read, Update, Delete) operations:
+  - Services
+  - Portfolio items
+  - Testimonials
+  - Contact messages
+- Simple, clean interface for content management
+
+---
+
+## Tech Stack
+- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript
+- **Backend:** PHP (OOP recommended), MySQL (PDO for security)
+- **Deployment:** Can be hosted on shared hosting or VPS
+
+---
+
+## Folder Structure

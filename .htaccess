@@ -1,0 +1,13 @@
+# Basic security and rewrite hints. Adjust as needed for your server.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Redirect to index.php if file/folder not exists (optional)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
