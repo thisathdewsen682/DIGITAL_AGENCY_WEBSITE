@@ -1,0 +1,10 @@
+{
+  "name": "agency/website",
+  "description": "Agency website",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
+}
