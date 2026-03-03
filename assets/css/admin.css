@@ -1,0 +1,17 @@
+/* Admin-only styles (loaded only on admin pages) */
+.admin-content {
+  background: #f8f9fa;
+}
+
+.admin-card {
+  border-radius: 0.35rem;
+}
+
+.navbar .nav-link {
+  margin-left: 0.75rem;
+}
+
+/* Small helper for tables */
+.table thead th {
+  background: #fff;
+}

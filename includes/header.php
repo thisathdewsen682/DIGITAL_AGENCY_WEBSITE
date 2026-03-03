@@ -15,6 +15,8 @@ if (session_status() === PHP_SESSION_NONE) {
 </head>
 
 <body>
+    <div class="d-flex flex-column min-vh-100">
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.php">Agency</a>
