@@ -19,20 +19,20 @@ try {
         <div class="container">
             <h2 class="mb-4">Our Services</h2>
             <?php if (empty($services)): ?>
-                <p class="text-muted">No services available at the moment.</p>
+            <p class="text-muted">No services available at the moment.</p>
             <?php else: ?>
-                <div class="row g-4">
-                    <?php foreach ($services as $svc): ?>
-                        <div class="col-md-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title"><?php echo htmlspecialchars($svc['title']); ?></h5>
-                                    <p class="card-text"><?php echo nl2br(htmlspecialchars($svc['description'])); ?></p>
-                                </div>
-                            </div>
+            <div class="row g-4">
+                <?php foreach ($services as $svc): ?>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo htmlspecialchars($svc['title']); ?></h5>
+                            <p class="card-text"><?php echo nl2br(htmlspecialchars($svc['description'])); ?></p>
                         </div>
-                    <?php endforeach; ?>
+                    </div>
                 </div>
+                <?php endforeach; ?>
+            </div>
             <?php endif; ?>
         </div>
     </section>
